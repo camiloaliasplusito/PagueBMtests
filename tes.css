@@ -1,0 +1,39 @@
+.fondo{
+    background-image:url("fondo test.png");
+    background-size:cover;
+    
+}
+
+
+.LOGO{
+    margin-top:-12%;
+    margin-left:85%;
+}
+
+.capa2 kbd{
+    float:left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top:6.2%;
+    margin-left:0.6%;
+}
+
+section{
+    display:flex;
+    width:600px;
+    height:400px;
+}
+
+section img{
+    width:0;
+    flex-grow:1;
+    object-fit:cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover{
+    cursor:crosshair;
+    width:300px;
+    opacity:1;
+    filter:contrast(120%);
+}
